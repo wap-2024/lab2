@@ -1,0 +1,26 @@
+body { 
+    background-color: gray;
+}
+
+h3 { 
+    color: blue
+}
+
+#introduction > span {
+    color: red;
+}
+
+.imdb_link:hover { 
+    color: yellow;
+}
+.imdb_link:visited { 
+    color: green;
+}
+
+#list .list-item > span { 
+    font-style: italic;
+}
+
+#list .list-item  { 
+    font-weight: bold;
+}
