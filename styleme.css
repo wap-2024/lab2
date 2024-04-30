@@ -3,18 +3,29 @@ body {
 }
 
 h3 { 
-    color: blue
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif
 }
 
+
 #introduction > span {
-    color: red;
+    color: brown;
 }
 
 .imdb_link:hover { 
     color: yellow;
 }
+
 .imdb_link:visited { 
     color: green;
+}
+
+.imdb_link:active { 
+    color: blueviolet;
+}
+
+.imdb_link {
+    text-decoration: none;
 }
 
 #list .list-item > span { 
@@ -23,4 +34,5 @@ h3 {
 
 #list .list-item  { 
     font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
