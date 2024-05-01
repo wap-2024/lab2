@@ -37,14 +37,16 @@ h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#favorite-list >  .favorite-item-sublist > .item {
+#favorite-list > #favorite-item > .favorite-item-sublist > .item {
     color: yellow; 
 } 
 
-#favorite-list>  .favorite-item-sublist  {
+#favorite-list > #favorite-item > .favorite-item-sublist > .item > .sub-list {
+    color: white;
     list-style-type: none;
 } 
 
-#favorite-list>  .favorite-item-sublist > .sub-list  {
+
+#favorite-list> #favorite-item > .favorite-item-sublist  {
     list-style-type: none;
 } 
